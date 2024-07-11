@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+   
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <ul class="header-menu list">
+            <li class="header-menu-item">
+              <a href="" class="header-menu-link link">Gmail</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="" class="header-menu-link link">Зображення</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button type="button" class="menu-btn-open">
+          <img src="./images/apps.png" class="menu-btn-icon" width="20" height="20"></img>
+        </button>
+        <button type="button" class="header-but">Увійти</button>
+      </div>
+    </header>
+
+    <!-----MAIN----->
+    <main class="main-page">
+      
+      <section class="section">
+        <div class="colorize">
+        <span class="span-g-one">G</span>
+        <span class="span-o-one">o</span>
+        <span class="span-o-two">o</span>
+        <span class="span-g-two">g</span>
+        <span class="span-l">l</span>
+        <span class="span-e">e</span>
+        </div>
+        <form class="form">
+          <div class="field">
+            <label for="user-name" class="label"></label>
+            <div class="input-wrap">
+              <ul class="form-list list">
+                <li>
+                  <img 
+              src="./images/search.png" 
+              class="input-icon" width="24" height="24">
+              </img>
+                </li>
+                <li>
+                  <img 
+              src="./images/vertical-line.png" 
+              class="input-icon" width="24" height="24">
+              </img>
+                </li>
+              </ul>
+              <input
+                type="text"
+                required
+                class="form-input"
+              />
+              <ul class="form-list list">
+                <li>
+                  <img 
+                  src="./images/keyboard.png" 
+                  class="input-icon" width="24" height="24">
+                  </img>
+                </li>
+                <li>
+                  <img 
+                  src="./images/google-voice.png" 
+                  class="input-icon" width="24" height="24">
+                  </img>
+                </li>
+                <li>
+                  <img 
+                  src="./images/clipart.png" 
+                  class="input-icon" width="24" height="24">
+                  </img>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="form-btn-list">
+            <button type="submit" class="form-btn">Пошук Google</button>
+            <button type="submit" class="form-btn js-btn">Мені пощастить</button>
+          </div>
+        </form>
+        <p class="section-end">Мова Google: <span class="section-end-span">English</span></p>
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="link-ukraine">
+          <a href="./index.html" class="footer-link-ukraine link">Україна</a>
+        </div>
+        <div class="footer-link">
+          <div class="">
+            <ul class="footer-list list">
+              <li><a href="" class="footer-list-item link">Про Google</a></li>
+              <li><a href="" class="footer-list-item link">Реклама</a></li>
+              <li><a href="" class="footer-list-item link">Для бізнесу</a></li>
+              <li><a href="" class="footer-list-item link">Як працює пошук</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="footer-list list">
+              <li><a href="" class="footer-list-item link">Конфіденційність</a></li>
+              <li><a href="" class="footer-list-item link">Умови</a></li>
+              <li><a href="" class="footer-list-item link">Налаштування</a></li>
+            </ul>
+          </div>
+      </div> 
+    </footer>    
+      <script type="module" src="./google.js"></script>
+  </body>
+</html>
